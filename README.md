@@ -3,7 +3,7 @@
 A simple header-only library for UDP communication in Windows.
 
 ## Installation
-Download ```server.h``` in your folder and include it.
+Download ```small_udp.h``` in your folder and include it.
 
 ## Example
 ```cpp
