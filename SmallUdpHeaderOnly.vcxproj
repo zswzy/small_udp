@@ -131,7 +131,7 @@
     <ClCompile Include="example.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="server.h" />
+    <ClInclude Include="small_udp.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />

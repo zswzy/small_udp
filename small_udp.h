@@ -1,12 +1,12 @@
 /*****************************************************************
- * @file   server.h
+ * @file   samll_udp.h
  * @brief  A very simple header-only library for udp communication in Windows.
  * 
- * @author zeyuan
+ * @author zswzy
  * @date   20230529
  *********************************************************************/
-#ifndef SERVER_H
-#define SERVER_H
+#ifndef SMALL_UDP_H
+#define SMALL_UDP_H
 
 
 #include <stdio.h>

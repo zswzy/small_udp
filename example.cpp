@@ -3,17 +3,19 @@
  * @brief  An example of UDP send and receive.
  * 
  * 
- * @author zeyuan
+ * @author zswzy
  * @date   20230529
  *********************************************************************/
 
 #include <stdio.h>
-#include <server.h>
+#include <small_udp.h>
 
 int main()
 {
     // Create my udp
     UdpCom udp_test = UdpCom();
+
+    // Open udp with local IP & port and remote IP & port.
     udp_test.Open("127.0.0.1", 15000, "127.0.0.1", 20000);
 
     // Set and send message

@@ -2,6 +2,9 @@
 
 A simple header-only library for UDP communication in Windows.
 
+## Installation
+Download ```server.h``` in your folder and include it.
+
 ## Example
 ```cpp
 #include <stdio.h>
@@ -10,6 +13,8 @@ int main()
 {
     // Create my udp
     UdpCom udp_test = UdpCom();
+    
+    // Open udp with local IP & port and remote IP & port.
     udp_test.Open("127.0.0.1", 15000, "127.0.0.1", 20000);
 
     // Set and send message
