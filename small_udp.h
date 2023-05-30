@@ -8,6 +8,7 @@
 #ifndef SMALL_UDP_H
 #define SMALL_UDP_H
 
+#define _WINSOCKAPI_
 
 #include <stdio.h>
 #include <string>
